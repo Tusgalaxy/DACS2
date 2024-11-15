@@ -5,6 +5,9 @@
 
         <?php
 
+            $user = new User();
+            $ROW_USER = $user->get_user($COMMENT['userid']);
+
             $image = "img/avatar.jpg";
 
             if(file_exists($ROW_USER['profile_image'])){

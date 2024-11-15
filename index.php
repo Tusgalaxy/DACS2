@@ -75,7 +75,7 @@
             border: none;
             padding: 4px;
             font-size: 14px;
-            background-image: url("img/search.png");
+            background-image: url(img/search-icon.png);
             background-repeat: no-repeat;
             background-position: right;
         }
